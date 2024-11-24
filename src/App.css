@@ -1,0 +1,40 @@
+*{
+  transition: all 0.2s ease-in-out;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+#navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1000;
+}
+
+#main-section{
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.movie-card:hover{
+  transform: scale(1.02);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.img-movie{
+  height: 300px;
+  width: 100%;
+}
+
+.title-movie{
+  height: 50px;
+}
+
+.title-movie-text{
+  font-size: small;
+}
